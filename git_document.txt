@@ -1,0 +1,21 @@
+注意：
+使用google
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "xxxxxxx@qq.com"
+
+创建本机的ssh Key
+在git Bash窗口中输入下列命令，创建本电脑的ssh Key
+$ ssh-keygen -t rsa -C "xxxxxxx@qq.com"
+输入后一路回车，直到显示如下图则表示生成成功。
+
+
+将本地仓库关联到GitHub:
+git remote add origin git@github.com:hujianglang/2022learning.git
+
+上传github前pull一下：
+git pull origin master
+
+上传代码到远程仓库：
+git push -u origin master
+
