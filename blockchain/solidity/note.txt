@@ -1,0 +1,26 @@
+2022/2/12
+solidity开发工具：
+1，Node.js 安装
+2，Solidity编译器，作为npm软件包
+3，visual studio插件安装
+4，ethereum.js-testrpc未安装成功，修改为以下的：
+
+
+安装Solidity编译器：
+npm install -g solc
+solcjs -V
+
+安装以太坊客户端：
+npm install -g ethereumjs-testrpc
+安装失败，修改为以下工具：
+npm install -g ganache-cli
+
+备注：环境变量设置后，重启生效
+
+
+学习教程：
+https://www.youtube.com/watch?v=ZuUbiOvs7Gw
+
+另外可以使用remix学习
+https://remix.ethereum.org
+
