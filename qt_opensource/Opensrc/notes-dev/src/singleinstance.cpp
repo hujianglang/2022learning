@@ -4,6 +4,8 @@
 SingleInstance::SingleInstance(QObject *parent)
     : QObject(parent)
 {
+    //TODO
+
     connect(&m_server, &QLocalServer::newConnection,
             [this](){emit newInstance();});
 }
