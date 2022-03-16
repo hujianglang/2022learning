@@ -21,3 +21,14 @@ git commit 提交后，再提交到远程
 上传代码到远程仓库：
 git push -u origin master
 
+github fork代码  到本地
+git clone git@github.com:hujianglang/MVD-Model-View-Delegate.git
+
+修改后提交代码：
+上传代码到远程仓库：
+git push -u origin master
+
+git diff 查看修改 
+git diff  filename
+git log
+git commit --amend 修改注释
